@@ -1,0 +1,97 @@
+# Resume Description - Jzs Gamer
+
+class Resume:
+    def __init__(self, name, profession, email, phone):
+        self.name = name
+        self.profession = profession
+        self.email = email
+        self.phone = phone
+        self.skills = []
+        self.experience = []
+        self.education = []
+
+    def add_skill(self, skill):
+        self.skills.append(skill)
+
+    def add_experience(self, experience):
+        self.experience.append(experience)
+
+    def add_education(self, education):
+        self.education.append(education)
+
+# Create Resume Object
+jzs_gamer_resume = Resume(
+    name="Jzs Gamer",
+    profession="Software Engineer",
+    email="jzsgamer@email.com",
+    phone="+1234567890"
+)
+
+# Add Skills
+jzs_gamer_resume.add_skill("Python")
+jzs_gamer_resume.add_skill("Java")
+jzs_gamer_resume.add_skill("JavaScript")
+jzs_gamer_resume.add_skill("SQL")
+jzs_gamer_resume.add_skill("HTML/CSS")
+
+# Add Experience
+jzs_gamer_resume.add_experience({
+    "position": "Full Stack Developer",
+    "company": "Google Inc.",
+    "location": "Mountain View, CA",
+    "dates": "2018 - Present",
+    "responsibilities": [
+        "Designed and developed scalable web applications using Python, Django, and React.",
+        "Collaborated with engineering teams to implement innovative solutions.",
+        "Led code reviews and mentored junior developers.",
+        "Contributed to the development of Google Cloud services."
+    ]
+})
+
+# Add Education
+jzs_gamer_resume.add_education({
+    "degree": "BSc in Information Systems Technology",
+    "university": "United States International University",
+    "location": "Nairobi, Kenya",
+    "dates": "2023 - 2027",
+    "courses": [
+        "Advanced Algorithms",
+        "Database Management",
+        "Web Development",
+        "Operating Systems",
+        "Software Engineering"
+    ],
+    "projects": [
+        "Real-time Chat Application using Socket.io and Node.js",
+        "RESTful API for an e-commerce platform",
+        "Mobile App for Task Management",
+        "Data Visualization Dashboard",
+        "Machine Learning Model for Predictive Analysis"
+    ]
+})
+
+# Additional Information
+jzs_gamer_resume.awards = [
+    "Certificate of Achievement for Exceptional Programming Skills",
+    "Best Team Player Award - Google Inc.",
+    "Merit Scholarship for Academic Excellence - United States International University",
+    "Outstanding Performance in Hackathon Competition",
+    "Top Performer in Coding Challenges"
+]
+jzs_gamer_resume.languages = ["English (Fluent)", "Spanish (Intermediate)"]
+jzs_gamer_resume.links = {
+    "GitHub": "https://github.com/Jmorgan-123",
+    "LinkedIn": "https://linkedin.com/in/jzsgamer"
+}
+
+# Print Resume Information
+print("Name:", jzs_gamer_resume.name)
+print("Profession:", jzs_gamer_resume.profession)
+print("Email:", jzs_gamer_resume.email)
+print("Phone:", jzs_gamer_resume.phone)
+print("Skills:", jzs_gamer_resume.skills)
+print("Experience:", jzs_gamer_resume.experience)
+print("Education:", jzs_gamer_resume.education)
+print("Awards:", jzs_gamer_resume.awards)
+print("Languages:", jzs_gamer_resume.languages)
+print("Links:", jzs_gamer_resume.links)
