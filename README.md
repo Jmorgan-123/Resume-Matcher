@@ -61,12 +61,12 @@ The process is as follows:
 
 Follow these steps to set up the environment and run the application.
 
-1. Fork the repository [here](https://github.com/srbhr/Resume-Matcher/fork).
+1. Fork the repository [here](https://github.com/Jmorgan-123/Resume-Matcher/fork).
 
 2. Clone the forked repository.
 
    ```bash
-   git clone https://github.com/<YOUR-USERNAME>/Resume-Matcher.git
+   git clone https://github.com/<Jmorgan-123>/Resume-Matcher.git
    cd Resume-Matcher
    ```
 
